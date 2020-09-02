@@ -1,0 +1,5 @@
+.row__poster {
+    max-height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
