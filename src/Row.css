@@ -1,5 +1,10 @@
 .row {
     margin-left: 20px;
+    color: white;
+}
+
+.row__title {
+    margin-left: 5px;
 }
 
 .row__posters {

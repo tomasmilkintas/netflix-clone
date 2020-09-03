@@ -20,8 +20,6 @@ function Banner() {
         fetchData();
     }, []);
 
-    console.log(movie);
-
     function truncate(str, n) {
         return str?.length > n ? str.substring(0, n - 1) + "..." : str;
     }
@@ -49,6 +47,7 @@ function Banner() {
 
                 <h1 className="banner__description">{truncate(movie?.overview, 150)}</h1>
             </div>
+            <div className="banner__fadeBottom" />
         </header>
     );
 }
